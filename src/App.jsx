@@ -1,4 +1,12 @@
 import "./App.css";
+import htmlImg from "./assets/html.png";
+import cssImg from "./assets/css.png";
+import jsImg from "./assets/js.png";
+import reactImg from "./assets/react.png";
+import wpImg from "./assets/wp.png";
+import psImg from "./assets/ps.png";
+import fusionImg from "./assets/fusion.png";
+import amigosVid from "./assets/amigos.mp4";
 
 export default function App() {
   return (
@@ -33,20 +41,20 @@ export default function App() {
       {/* 🖼️ CAROUSEL */}
       <div className="carousel">
         <div className="carousel-track">
-          <img src="src/assets/html.png" alt="html" />
-          <img src="src/assets/css.png" alt="css" />
-          <img src="src/assets/js.png" alt="js" />
-          <img src="src/assets/react.png" alt="react" />
-          <img src="src/assets/wp.png" alt="wp" />
-          <img src="src/assets/ps.png" alt="ps" />
-          <img src="src/assets/fusion.png" alt="fusion" />
-          <img src="src/assets/html.png" alt="html" />
-          <img src="src/assets/css.png" alt="css" />
-          <img src="src/assets/js.png" alt="js" />
-          <img src="src/assets/react.png" alt="react" />
-          <img src="src/assets/wp.png" alt="wp" />
-          <img src="src/assets/ps.png" alt="ps" />
-          <img src="src/assets/fusion.png" alt="fusion" />
+          <img src={htmlImg} alt="html" />
+          <img src={cssImg} alt="css" />
+          <img src={jsImg} alt="js" />
+          <img src={reactImg} alt="react" />
+          <img src={wpImg} alt="wp" />
+          <img src={psImg} alt="ps" />
+          <img src={fusionImg} alt="fusion" />
+          <img src={htmlImg} alt="html" />
+          <img src={cssImg} alt="css" />
+          <img src={jsImg} alt="js" />
+          <img src={reactImg} alt="react" />
+          <img src={wpImg} alt="wp" />
+          <img src={psImg} alt="ps" />
+          <img src={fusionImg} alt="fusion" />
         </div>
       </div>
 
@@ -164,7 +172,7 @@ export default function App() {
           {/* Right: Video */}
           <div className="project-video">
             <video autoPlay muted loop>
-              <source src="src/assets/amigos.mp4" type="video/mp4" />
+              <source src={amigosVid} type="video/mp4" />
               Your browser does not support the video tag.
             </video>
           </div>
